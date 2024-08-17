@@ -1,0 +1,84 @@
+.overlay-container {
+  position: relative;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.sidetext {
+  margin-left: 350px;
+  color: rgb(219, 219, 210);
+}
+ul {
+  list-style: none;
+}
+li a {
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+  padding: 2px;
+}
+a:hover {
+  background-color: #68edcb;
+  /* border-radius: 15px; */
+  /* transition: 0.4s ease-in-out; */
+}
+
+.btn:hover {
+  background-color: #68edcb;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #010101;
+  border: 1px solid rgb(1, 89, 14);
+  transition: 0.1s ease-in-out;
+}
+.card {
+  background: none;
+  border: none;
+}
+.img-thumbnail {
+  height: 25rem;
+  margin: 50px;
+  padding: 50px;
+  border: none;
+  background: transparent;
+  margin-bottom: -30px;
+}
+input {
+  background-color: rgb(245, 235, 235);
+  height: 30px;
+}
+
+.img-fluid:hover {
+  width: 80px;
+  height: 20px;
+}
+
+.card:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.rounding {
+  transition: transform 0.3s ease-in-out;
+}
+
+.rounding:hover {
+  transform: scale(1.1);
+}
+
+.links:hover {
+  color: black;
+  font-size: 13px;
+  border-bottom: 2px solid brown;
+  font-weight: 500;
+}
+input {
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid grey;
+}
